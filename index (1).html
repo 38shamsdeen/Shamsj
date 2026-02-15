@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Learn and practice </title>
+</head>
+<body>
+<h2>Government Secondary School Gwagwa Portal</h2>
+
+<input type="text" id="username" placeholder="Username"><br><br>
+
+<input type="password" id="password" placeholder="Password"><br><br>
+
+<button type="button" onclick="myfunc()">Submit</button>
+
+<script>
+function myfunc() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  if (username === "") {
+    alert("Please input username");
+  
+}  else if (password === "") {
+    alert("Please input password");
+  } 
+  else {
+    alert("Login successful");
+  }
+}
+</script>
+
+</body>
+</html>
